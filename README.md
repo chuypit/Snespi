@@ -16,7 +16,7 @@ button = 18
 
  ```bash
 sudo apt-get update
-git clone https://github.com/chuypit/Nespirc532.git
+git clone https://github.com/chuypit/Snespi.git
 cd Nespirc532
 sudo sh ./setup.sh
  ``` 
