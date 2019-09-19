@@ -16,6 +16,12 @@ button = 18
 
  ```bash
 sudo apt-get update
+sudo apt-get install python2.7-dev
+cd ~
+git clone https://github.com/lthiery/SPI-Py.git
+cd ~/SPI-Py
+sudo python setup.py install
+cd ~
 git clone https://github.com/chuypit/Snespi.git
 cd Nespirc532
 sudo sh ./setup.sh
