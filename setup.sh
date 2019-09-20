@@ -17,6 +17,7 @@ then
     echo "**************************************"
     echo "Installing NFC "
     apt-get install python2.7-dev
+    apt install python-gpiozero
     git clone https://github.com/lthiery/SPI-Py.git
     cd SPI-Py
     python setup.py install
