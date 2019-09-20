@@ -13,6 +13,7 @@ cd ~
 git clone https://github.com/lthiery/SPI-Py.git
 cd ~/SPI-Py
 sudo python setup.py install
+sudo apt install python-gpiozero
 cd ~
 git clone https://github.com/chuypit/Snespi.git
 cd Nespirc532
