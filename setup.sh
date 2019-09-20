@@ -48,7 +48,7 @@ if grep -q "sudo python \/home\/pi\/Snespi\/Reset.py \&" "$RC";
 	then
 		echo "File /etc/rc.local already configured. Doing nothing."
 	else
-		sed -i -e "s/^exit 0/sudo python python \/home\/pi\/Snespi\/Reset.py \&\n&/g" "$RC"
+		sed -i -e "s/^exit 0/sudo python \/home\/pi\/Snespi\/Reset.py \&\n&/g" "$RC"
 		echo "File /etc/rc.local configured."
 fi
 
