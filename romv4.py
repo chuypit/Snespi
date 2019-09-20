@@ -46,7 +46,7 @@ while continue_reading:
                
                    if console in emulators:
                       print("cargando")
-                      print(getEmulatorpath(console) + getGamePath(console, game))
+                      subprocess.call(getEmulatorpath(console) + getGamePath(console, game), shell=True)
                       continue_reading = False                
                 
                                               
